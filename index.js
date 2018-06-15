@@ -9,8 +9,10 @@ console.log(string.toUpperCase())
 function logwhisper(string) {
 console.log(string.toLowerCase())
 }
-
-function sayHitoGrandma (string) { if(string.toUpperCase()===string) {
+var x = sayHitoGrandma(string);
+console.log(x);
+function sayHitoGrandma (string) { 
+  if(string.toUpperCase()===string) {
   return "YES INDEED!" }
 }
 
